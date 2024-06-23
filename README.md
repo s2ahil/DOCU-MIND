@@ -1,6 +1,4 @@
-# SaaS Landing Page Template
 
-<img src="public/full-landing-page.png" alt="Nextjs Tailwindcss Landing Page Template">
 
 ## Getting Started
 
