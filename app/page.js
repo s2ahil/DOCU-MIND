@@ -111,7 +111,7 @@ export default function Home() {
             </div>
             <video
               className="w-full ml-10 lg:max-w-lg rounded-lg shadow-[0_10px_20px_rgba(251,_171,_126,_0.9)]"
-              src=""
+              src="https://www.youtube.com/watch?v=LkpzsITzC6o"
               preload="auto"
               controls
               controlsList="nodownload"
