@@ -29,7 +29,7 @@ const FileUpload = () => {
     });
 
     try {
-      const response = await axios.post('http://localhost:8000/process_pdf', formData, {
+      const response = await axios.post('https://docu-mind-backend.onrender.com/process_pdf', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -54,7 +54,7 @@ const FileUpload = () => {
     setMessage('Fetching answer...');
 
     try {
-      const response = await axios.post('http://localhost:8000/answer_question', { user_question: question });
+      const response = await axios.post('https://docu-mind-backend.onrender.com/answer_question', { user_question: question });
       setAnswer(response.data.answer);
       setMessage('');
     } catch (error) {
