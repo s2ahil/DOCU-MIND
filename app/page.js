@@ -109,17 +109,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <video
-              className="w-full ml-10 lg:max-w-lg rounded-lg shadow-[0_10px_20px_rgba(251,_171,_126,_0.9)]"
-              src="https://www.youtube.com/embed/LkpzsITzC6o"
-  preload="auto"
-  controls
-  controlsList="nodownload"
-  disablePictureInPicture
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-            >
-            </video>
+              <iframe
+        className="w-full ml-10 lg:max-w-lg rounded-lg shadow-[0_10px_20px_rgba(251,_171,_126,_0.9)]"
+        src="https://www.youtube.com/embed/LkpzsITzC6o"
+        title="YouTube video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
           </div>
         </div>
 
